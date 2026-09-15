@@ -1,9 +1,14 @@
 # Lesslab Homebrew Tap
 
 ```sh
-brew tap lesslab/tap
-brew install --cask switchman
+brew install --cask lesslab/tap/switchman
 ```
+
+Installing by its fully qualified name trusts just this cask, so no separate
+`brew tap` or `brew trust` step is needed. Homebrew has required explicit
+trust for non-official taps since 6.0.0, and the short-name form
+(`brew tap lesslab/tap && brew install --cask switchman`) stops until you
+grant it.
 
 ## Switchman
 
