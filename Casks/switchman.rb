@@ -1,6 +1,6 @@
 cask "switchman" do
-  version "1.7.4,1704"
-  sha256 "5c4008d3ce1b65f0bdd184c67f2d8b0cdfd3e6f0ea798c3205f174232ac33609"
+  version "1.7.6,1706"
+  sha256 "20bfa4510fba7d9befb146512b4a68c71372fdf12395d9758b816058e7e1992a"
 
   url "https://dl.switchman.app/releases/Switchman-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Switchman"
